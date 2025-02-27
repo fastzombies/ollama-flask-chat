@@ -10,6 +10,12 @@ import logging
 import sys
 import os
 
+# Get version
+app_root    = os.path.dirname(os.path.abspath(__file__))
+app_version = os.path.join(app_root, '.version')
+with open(app_version, 'r') as f:
+    __version__ = f.read().strip()
+
 # Set up logging to stdout
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
