@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.9
+#!/usr/bin/env python3
 
 from flask import Flask, request
 from jinja2 import Environment, FileSystemLoader
