@@ -1,6 +1,8 @@
 # Ollama Flask Chat
 A very simple Flask powered LLM chat app that uses a locally running ollama server and models.
 
+![Ollama Flask Chat Image](images/ollama-flask-chat-hello-world.png)
+
 ## Features
 - Completely local LLM chat app.
 - Uses your locally running Ollama server and models.
