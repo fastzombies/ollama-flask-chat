@@ -93,7 +93,7 @@ requirements as possible.
 
 - All processing happens locally on your machine.
 - No data is sent to external servers unless you speify one.
-- Chat history are stored in your home directory `~/.flask-chat`.
+- Chat history are stored in your home directory `~/.ollama-flask-chat`.
 
 ## Troubleshooting
 
