@@ -11,6 +11,14 @@ import markdown
 from pathlib import Path
 import json
 
+__author__ = 'github@ryanhoke.net'
+__license__ = 'GPL 3.0'
+# Get version
+app_root    = os.path.dirname(os.path.abspath(__file__))
+app_version = os.path.join(app_root, '.version')
+with open(app_version, 'r') as f:
+    __version__ = f.read().strip()
+
 app = Flask(__name__)
 
 # Default Ollama configuration from environment variable
@@ -165,7 +173,7 @@ if __name__ == "__main__":
     """
     
     epilog = """
-    Run with -v for verbose debug output or specify a custom port with -p.
+    GPL 3.0 License.
     """
     
     parser = argparse.ArgumentParser(description=description,
