@@ -33,7 +33,7 @@ app = Flask(__name__)
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "localhost:11434")
 
 # Chat history directory
-CHAT_DIR = Path.home() / ".flask_chat"
+CHAT_DIR = Path.home() / ".ollama-flask-chat"
 CHAT_DIR.mkdir(exist_ok=True)
 
 # Set up Jinja2 environment
