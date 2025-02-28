@@ -87,13 +87,13 @@ requirements as possible.
 
 1. **Switch Models**
     - At any time you may switch models if there is more than one model installed.
-    - ANy chat history with that model will be loaded on selection.
+    - Any chat history with that model will be loaded on selection.
 
 ## Privacy and Data Security
 
 - All processing happens locally on your machine.
 - No data is sent to external servers unless you speify one.
-- Uploaded files and conversation history are stored in-memory and are cleared when you close the application or clear the data manually.
+- Chat history are stored in your home directory `~/.flask-chat`.
 
 ## Troubleshooting
 
