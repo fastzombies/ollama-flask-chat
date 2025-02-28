@@ -10,6 +10,16 @@ A very simple Flask powered LLM chat app that uses a locally running ollama serv
 - Can select any installed model.
 - Keeps a model chat history.
 
+## Roadmap
+- File upload.
+- Image upload.
+- Nicer UI.
+
+***NOTE*** This project will never be Open WebUI. I have very little time and
+expect new features to be added slowly. It is meant to be very simple and
+lightweight, something that is easy to install, manage and use with as few
+requirements as possible.
+
 ## Prerequisites
 - python3.9+.  May work with older versions but untested.
 - venv with pip highly recommended.
